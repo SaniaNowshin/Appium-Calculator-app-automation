@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Calculator App Automation">
+    <test name="User do arithmetic operations">
+        <classes>
+            <class name="screenRunner.CalcTestRunner"></class>
+        </classes>
+    </test>
+    <test name="User do arithmetic equations from CSV dataset">
+        <classes>
+            <class name="screenRunner.EquationFromDataset"></class>
+        </classes>
+    </test>
+</suite>
